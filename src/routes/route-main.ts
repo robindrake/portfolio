@@ -5,4 +5,4 @@ router.get('/', (req: Request, res: Response) => {
     res.send('Express + Typescript Server is running');
 });
 
-module.exports = router;
+export default router;
